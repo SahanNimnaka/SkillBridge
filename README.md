@@ -13,7 +13,7 @@ It helps candidates discover relevant internships, understand how their skills c
 - ESLint
 - Git and GitHub
 
-Planned technologies include PostgreSQL, Prisma ORM, and an LLM API.
+**Planned technologies:** PostgreSQL, Prisma ORM, and an LLM API.
 
 ## Prerequisites
 
@@ -23,44 +23,39 @@ Planned technologies include PostgreSQL, Prisma ORM, and an LLM API.
 
 ## Getting Started
 
-Clone the repository or open the project directory.
-
-Install dependencies:
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### 2. Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+### 3. Open the application
+
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Available Commands
 
-```bash
-npm run dev
-npm run build
-npm run start
-npm run lint
-```
-
-- `dev` starts the development server.
-- `build` creates a production build.
-- `start` runs the production server after building.
-- `lint` checks code quality.
+| Command         | Description                               |
+| --------------- | ----------------------------------------- |
+| `npm run dev`   | Starts the development server             |
+| `npm run build` | Creates a production build                |
+| `npm run start` | Runs the production server after building |
+| `npm run lint`  | Checks code quality                       |
 
 ## Project Status
 
-Currently in initial project setup. Frontend components, database integration, authentication, internship management, and AI-powered matching will be implemented incrementally.
+SkillBridge is under active development. Features and integrations will be implemented incrementally based on the project requirements.
 
 ## Security
 
-- Do not commit API keys, passwords, or database credentials.
-- Keep secrets in local environment files.
+- Never commit API keys, passwords, or database credentials.
+- Store secrets in local environment files.
 - Validate user input and protect private user data.
 
 ## License
